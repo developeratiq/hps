@@ -36,9 +36,9 @@ function Testimonial() {
 
     ]
     return (
-        <div className='mt-[8vh] w-[90vw]  ml-[10vw]'>
-            <div className='flex gap-8'>
-                <div className='w-[50%] flex justify-center items-center mb-[5%] mt-[2%]'>
+        <div className='testimonial'>
+            <div className='flex gap-8 testiinner'>
+                <div className='testinner-div'>
                     <div className=' w-[80%]'>
                         <h2 className=' w-max text-red-500 font-semibold text-2xl border-b-2 border-red-600 border-dotted'>Testimonial</h2>
                         <h1 className='text-4xl font-bold font-mono'>What Our Students Says</h1>
@@ -58,6 +58,7 @@ function Testimonial() {
 export default Testimonial
 
 const SlickSlider = ({data}) => {
+    console.log(data)
     const settings = {
         // dots: true,
         infinite: true,

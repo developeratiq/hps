@@ -11,11 +11,11 @@ import { IoIosArrowForward } from "react-icons/io";
 
 function Footer() {
   return (
-    <div className='bg-slate-900 text-white mt-[5vh]'>
+    <div className='bg-slate-900 text-white mt-[5vh]' style={{border:"1px solid red"}}>
 
-      <div className=' w-[80vw] ml-[10vw] flex justify-between pt-[5vh]'>
-        <div className='w-[30vw] font-mono'>
-          <div className='flex  gap-6 font-bold font-mono'>
+      <div className='firtsfooter ' >
+        <div className=' font-mono'>
+          <div className='flex  gap-3  font-bold font-mono'>
             <FaBookReader size={"2.3em"} />
             <h1 className='text-center text-2xl'>Heaven Public School</h1>
 
@@ -32,7 +32,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className='footersection w-[80vw] ml-[10vw] '>
+      <div className='footersection w-[80vw] ml-[10vw] ' >
         <div className='flex justify-between'>
           <div className='intouch  mt-[5vh]'>
             <h1 className='text-2xl font-bold font-mono'>Get in Touch</h1>
@@ -55,6 +55,7 @@ function Footer() {
               <TiSocialTwitter size={"3em"} />
             </div>
           </div>
+          <div className='footerto'>
           <div>
             <h1 className='capitalize text-2xl font-bold font-mono mt-[5vh]'>Our Courses</h1>
             <ul className='mt-3 '>
@@ -85,6 +86,7 @@ function Footer() {
             </ul>
           </div>
 
+          </div>
           </div>
 
 

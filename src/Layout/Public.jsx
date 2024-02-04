@@ -7,12 +7,15 @@ import { Outlet } from 'react-router-dom'
 
 function Public() {
   return (
-    <div>
+    <>
     <Nav/>
-    <Outlet/>
+    
+   <div className='outlet'>
+   <Outlet/>
+   </div>
     {/* <Body/> */}
     <Footer/>    
-    </div>
+    </>
   )
 }
 

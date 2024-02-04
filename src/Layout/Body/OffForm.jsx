@@ -5,10 +5,10 @@ function OffForm() {
         <div
             className='offForm flex justify-center items-center'
         >
-            <form action="" className='bg-[white] w-[40%] px-[30px] py-[30px] my-9'>
+            <form action="" className='offforminner'>
                 <h1 className='text-center text-2xl font-bold mb-[20px]'>30% Off for new students</h1>
-                <div className='flex'>
-                    <div class="relative h-12 w-full min-w-[200px] m-[5px]">
+                <div className='flex offforminnerflex'>
+                    <div class=" offFormform">
                         <input placeholder="Outlined"
                             type='text'
                             class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-red bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0 focus:placeholder:opacity-100" />
@@ -17,7 +17,7 @@ function OffForm() {
                             Your Name
                         </label>
                     </div>
-                    <div class="relative h-12 w-full min-w-[200px] m-[5px]">
+                    <div class="offFormform">
                         <input placeholder="Outlined"
                             type='email'
                             class="peer h-full w-full rounded-[7px] border border-blue-gray-200 border-t-red bg-transparent px-3 py-2.5 font-sans text-sm font-normal text-blue-gray-700 outline outline-0 transition-all placeholder-shown:border placeholder-shown:border-blue-gray-200 placeholder-shown:border-t-blue-gray-200 focus:border-2 focus:border-gray-900 focus:border-t-transparent focus:outline-0 disabled:border-0 disabled:bg-blue-gray-50 placeholder:opacity-0 focus:placeholder:opacity-100" />

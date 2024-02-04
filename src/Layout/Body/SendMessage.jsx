@@ -7,22 +7,21 @@ import { MdMarkEmailRead } from "react-icons/md";
 
 
 function SendMessage() {
-    const classes =""
   return (
     <div>
         <div className=''>
 
-<div className='mt-[9vh]  flex gap-[5vw] w-[90vw] ml-[13vw]  '>
+<div className=' sendMessage '>
    
     <div className=' send_message_sec1 bg-slate-100 px-6 py-10 rounded-sm grid place-items-center'>
 
-    <div className='mt-3 w-[90%]'>
-            <div className='flex gap-3'>
+    <div className='mt-3 w-[100%] sendmessagesec1firstdiv '>
+            <div className='flex gap-3 md:flex-col'>
                 <div className='send_form_icon bg-[#8a2349]  w-[100px] grid place-items-center'>
                 <CiLocationOn size={"2.5em"}  color='white'/>
                 </div>
                 <div className='class2'>
-                    <h2 className='text-black text-3xl font-semibold'>Our Location</h2>
+                    <h2 className='text-black  font-semibold'>Our Location</h2>
                     <h5 className='text-l capitalize'>Rampatti road Shakarpur  bharwara Darbhanga</h5>
                 </div>
             </div>
@@ -31,7 +30,7 @@ function SendMessage() {
                     <MdAddCall size={"2em"} color='white'/>
                 </div>
                 <div className='class2 '>
-                    <h2 className='text-black text-3xl font-semibold'>Call Us</h2>
+                    <h2 className='text-black  font-semibold'>Call Us</h2>
                     <h5 className='text-l'>+91 6378493754</h5>
                 </div>
             </div>
@@ -42,7 +41,7 @@ function SendMessage() {
                 </div>
                 <div className='class2'>
                     
-                    <h2 className='text-black text-3xl font-semibold'>Email Us</h2>
+                    <h2 className='text-black  font-semibold'>Email Us</h2>
                     <h5 className='text-l'>atiqur.mdrahman@gmail.com</h5>
                 </div>
             </div>
