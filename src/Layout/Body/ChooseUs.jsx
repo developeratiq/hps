@@ -51,7 +51,7 @@ function ChooseUs() {
             </div>
             <div className='sec1'>
 
-                <div className='flex-1  sec1'>
+                <div className='flex-1  sec1 ' style={{display:"none"}}>
                     <img className='' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2U5NISrrVuBCt-G9tbnH0fxOFCsPWLi1F7-65PXG_JEhbKzek8BLReKrZdkWoaw6McZw&usqp=CAU" alt="" />
 
                 </div>

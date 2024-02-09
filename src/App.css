@@ -1,6 +1,6 @@
 
 .navbar{
-    border: 2px solid red;
+   
     position: fixed;
     top: 0%;
     width: 98vw;
@@ -93,7 +93,7 @@ flex-direction: row;
 }
 
 .about-usbottom {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     display: flex;
     /* gap: 1rem; */
     color: white;
@@ -512,7 +512,7 @@ font-size: 1.85rem;
     }
 
     .maindiv>img {
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 99vw !important;
         height: 30vh;
     }
@@ -537,7 +537,7 @@ font-size: 1.85rem;
         margin-top: 5vh;
     }
     .offforminner{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         width: 90vw;
     }
     .offFormform{
@@ -549,7 +549,7 @@ font-size: 1.85rem;
         flex-direction: column;
     }
     .testicard{
-        border: 1px solid red;
+        /* border: 1px solid red; */
         display: none !important;
     }
     .instContainer{

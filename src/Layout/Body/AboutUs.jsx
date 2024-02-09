@@ -1,10 +1,11 @@
 import React from 'react'
-
+import video from '../../assets/Heaven1.mp4'
 function AboutUs() {
     return (
         <section className='aboutuspage'>
             <div className='flex-1 h-[55vh] sec1'>
-                <img className='h-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2U5NISrrVuBCt-G9tbnH0fxOFCsPWLi1F7-65PXG_JEhbKzek8BLReKrZdkWoaw6McZw&usqp=CAU" alt="" />
+            <video src={video} autoPlay  muted></video>
+                {/* <img className='h-full' src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2U5NISrrVuBCt-G9tbnH0fxOFCsPWLi1F7-65PXG_JEhbKzek8BLReKrZdkWoaw6McZw&usqp=CAU" alt="" /> */}
 
             </div>
             <div className='flex-2 sec2 '>
