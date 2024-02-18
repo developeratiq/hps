@@ -12,7 +12,7 @@ import { IoIosArrowForward } from "react-icons/io";
 function Footer() {
   return (
     <div className='bg-slate-900 text-white mt-[5vh]' >
-
+-
       <div className='firtsfooter ' >
         <div className=' font-mono'>
           <div className='flex  gap-3  font-bold font-mono'>

@@ -4,6 +4,7 @@ import Body from './Body/Body'
 import Footer from './Footer/Footer'
 import { Outlet } from 'react-router-dom'
 import Aos from 'aos'
+import { Button } from '@chakra-ui/react'
 
 
 function Public() {
@@ -15,6 +16,8 @@ function Public() {
     <>
     <Nav/>
     
+    
+  
    <div className='outlet'>
    <Outlet/>
    </div>

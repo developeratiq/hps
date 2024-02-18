@@ -5,7 +5,7 @@
     top: 0%;
     width: 98vw;
     background-color: white;
-    z-index: 999999;
+    z-index: 1;
     
 }
 .outlet{
@@ -316,11 +316,22 @@ font-size: 1.85rem;
     width: 30vw;
 
 }
+
+ .drawerjs{
+    border: 2px solid red;
+    z-index: 99;
+ }
+ .navbutton{
+    display: none;
+ }
 @media only screen and (max-width: 600px) {
 .navbar{
    position: sticky;
 }
 
+.navbutton{
+    display: block;
+}
     .firtsfooter{
         /* background-color: red; */
         width: 95vw;
@@ -489,7 +500,7 @@ font-size: 1.85rem;
         background-color: rgb(197, 190, 190) !important;
         position: absolute;
         right: 1%;
-        z-index: 999;
+        z-index: 1;
     }
 
     .navulres::before {
