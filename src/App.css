@@ -18,43 +18,58 @@
 }
 
 
-.navul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    /* background-color: #333; */
-}
-
-.navli {
-    margin: 0 10px;
-    padding: 10px;
+.nav-link {
     position: relative;
-    cursor: pointer;
-    color: black;
-    transition: color 0.3s ease-in-out;
-}
-
-.navli:hover {
-    color: #4923e3;
-}
-
-.navli::after {
+    overflow: hidden;
+  }
+  
+  .nav-link::before {
     content: "";
     position: absolute;
-    width: 0;
-    height: 3px;
-    background-color: #3498db;
     bottom: 0;
     left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #3182ce;
+    transition: all 0.3s ease;
     transform: translateX(-50%);
-    transition: width 0.3s ease-in-out;
-}
-
-.navli:hover::after {
+  }
+  
+  .nav-link:hover::before {
     width: 100%;
-}
+  }
+  
+  /* Additional styling for hover effect (optional) */
+  .nav-link:hover {
+    color: #3182ce;
+  }
+
+
+
+
+  /* -------------------drawer--------------------------------- */
+  .chakra-slide{
+    position: fixed;
+    right: 0px;
+    top: 3px !important;
+    bottom: 20px !important;
+    width: 57% !important;
+  }
+
+  .responsiveul{
+
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100%;
+
+  }
+  .responsiveul > li{
+  
+    width: 70%;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;justify-content: center;
+  }
 .slickcont{
     height: 60vh;
 }
