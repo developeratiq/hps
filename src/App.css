@@ -372,6 +372,7 @@ font-size: 1.85rem;
     top: 3px !important;
     bottom: 20px !important;
     width: 57% !important;
+    background-color: rgb(17 24 39) !important; 
   }
 
   .responsiveul{
