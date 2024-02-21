@@ -32,7 +32,7 @@ export function DrawerJs({ isOpen, onOpen, onClose,btnRef }) {
           <DrawerOverlay />
           <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>
+            <DrawerHeader  className="bg-gray-800">
             <img src="https://seeklogo.com/images/E/education-college-school-logo-289049824A-seeklogo.com.png" className="h-8" alt="Flowbite Logo" />
             </DrawerHeader>
   
